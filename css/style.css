@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+}
+.cont .menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(85, 80, 80);
+    position: fixed;
+    /* linear-gradient(rgba(200,200,200,0.5), rgba(200,200,200 ,0.5), rgba(200,200,200,0.5)) */
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    width: 100%;
+    padding: 10px;
+}
+.cont .menu *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.cont .menu .logo{
+    display: flex;
+    text-decoration: none;
+}
+.cont .menu .logo img{
+    width:70px ;
+    height: 70px;
+}
+.cont .menu .logo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 12px;
+    font-size: 35px;
+    color: rgb(112, 57, 184);
+}
+.cont .menu .mode{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.cont .menu .mode img{
+    width:40px ;
+    height:40px;
+    border-radius: 50%;
+}
+.cont .menu .mode .moon {
+    display: flex; 
+    flex-direction: column;
+}
+.cont .menu .mode .moon i{
+    padding: 10px 12px;
+    border: 1px solid rgb(105, 96, 96);
+    border-radius: 9px;
+    color: white;
+    cursor:pointer;
+}
+.cont .menu .mode .moon .dark{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -100px;
+    display: none;
+}
+.cont .menu .mode .moon .dark ul{
+    line-height: 40px;
+    display: block;
+    background: black;
+    color: white;
+    list-style-type: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    width: 140px;
+}
+.cont .menu .mode .moon .dark ul li{
+    cursor: pointer;
+}
+.cont .body{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    padding: 30px;
+    overflow-y: scroll;
+}
+.cont .body .content{
+    margin-top: 100px;
+}
+.cont .body .content h1{
+    color: white;
+}
+.cont .body .content ul{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cont .body .content ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: 20px;
+}
+.cont .body .content ul li img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cont .body .content ul li > i{
+    color: rgb(97, 94, 94);
+    position: absolute;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: none;
+    transition: 2s linear;
+}
+.cont .body .content ul li:hover i{
+    display: block;
+    position: relative;
+}
+.cont .body .content ul li .modal{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 3s linear;
+    align-items: center;
+    justify-content: center;
+    background: rgba(150,150,150,0.5);
+}.cont .body .content ul li .modal .conta{
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    height: 70%;
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cont .body .content ul li .modal .conta .text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cont .body .content ul li .modal .conta .text .fa-x{
+    cursor: pointer;
+    padding: 10px;
+    background: gray;
+    border-radius: 5px;
+    border:1px solid white;
+}
+.cont .body .content ul li .modal .conta img{
+    width: 60%;
+    align-self: center;
+    height: 60%;
+}
+.cont  .footer{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.cont  .footer .create{
+    display: flex;
+}
+.cont  .footer .create > div{
+    margin-left: 30px;
+    display: flex;
+}
+.cont  .footer .create > div p{
+    margin-left: 10px;
+}
+.cont  .footer .icons p i{
+    font-size: 24px;
+}

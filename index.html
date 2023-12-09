@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ref   esh" content="1">
+    <link rel="stylesheet" href="icon/css/all.css">
+    <link rel="stylesheet" href="icon/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/logo.jpg">
+    <script src="javascript/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".cont .menu .mode .moon").click(
+                function () {
+                    $(".cont .menu .mode .moon .dark").fadeToggle();
+                }
+            );
+            $(".cont .menu .mode .moon .dark .light").click(
+                function () {
+                    $(".cont .body").css("background", "white");
+                    $(".cont .body").css("color", "black");
+                    $(".logo").css("color", "rgb(112, 57, 184)");
+                    $(".cont .menu").css("background", "linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8),rgba(255,255,255,0.8))");
+                    $(".fa-moon").css("color", "black");
+                }
+            );
+            $(".cont .menu .mode .moon .dark .darks").click(
+                function () {
+                    $(".cont .body").css("background", "black");
+                    $(".cont .body").css("color", "white");
+                    $(".logo").css("color", "rgb(112, 57, 184)");
+                    $(".fa-moon").css("color", "white");
+                    $(".cont .menu").css("background", "linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.8))");
+                }
+            );
+            $("li").click(function () {
+                $(this).children(".modal").css("display","flex");
+            });
+            $(".cont .body .content ul li .modal .conta .text .fa-x").click(function(){
+                $(this).parent(".text").parent(".conta").parent(".modal").fadeOut(1000);
+            });
+        });
+
+    </script>
+    <title>PetGen.Ai Clone</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="menu">
+            <a href="http://www.petgen.ai" target="_blank" class="logo">
+                <img src="image/logo.jpg" alt="">
+                <h1 class="logo">PetGen.ai</h1>
+            </a>
+            <div class="mode">
+                <div class="moon">
+                    <i class="fa fa-moon"></i>
+                    <div class="dark">
+                        <ul>
+                            <li class="light">Light</li>
+                            <li class="darks">Dark</li>
+                            <li class="light">System</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="image/02.jpg">
+            </div>
+        </div>
+        <div class="body">
+            <div class="content">
+                <h1>Community</h1>
+                <ul>
+                    <li><img src="image/1.jpg" alt=""> <i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/1.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/2.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/2.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/3.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/3.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/4.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/4.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/5.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/5.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/6.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/6.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/7.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/7.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/8.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/8.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/9.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/9.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/10.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/10.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/11.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/11.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/12.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/12.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/13.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/13.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/14.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/14.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/15.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/15.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/16.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/16.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/17.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/17.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/18.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/18.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/19.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/19.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/20.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/20.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/21.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/21.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/22.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/22.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/23.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/23.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/24.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/24.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/25.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/25.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/26.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/26.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/27.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/27.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/28.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/28.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/29.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/29.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/30.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/30.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/31.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/31.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/32.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/32.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/33.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/33.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/34.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/34.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/35.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/35.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/36.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/36.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/37.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/37.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/38.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/38.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/39.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/39.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/40.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/40.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/41.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/41.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/42.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/42.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/43.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/43.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/44.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/44.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/45.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/45.jpg">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><img src="image/46.jpg" alt=""><i class="fa fa-download"></i>
+
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/46.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/47.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/47.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><img src="image/48.jpg" alt=""><i class="fa fa-download"></i>
+                        <div class="modal">
+                            <div class="conta">
+                                <div class="text">
+                                    <h2>Animal</h2>
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                                <img src="image/48.jpg">
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="create">
+                <p>Created By Godspower</p>
+                <div>
+                    <p>Privacy Policy</p>
+                    <p>Terms Of Service</p>
+                </div>
+            </div>
+            <div class="icons">
+                <p><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-github"></i>
+                   <b> &copy<script>
+                        var date = new Date();
+                        var year=date.getFullYear();
+                        document.write(year);
+                    </script>PetGen</b> All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
